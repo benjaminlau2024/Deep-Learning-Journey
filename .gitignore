@@ -1,0 +1,40 @@
+# IDE & Editor files (contain machine-specific absolute paths, don't commit)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Type checker configs (contain machine-specific paths)
+pyrefly.toml
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated images & papers (using scripts to generate them, no need to track massive binary images)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+conda-env/
+
+# Local project venv (auto-detected by IDE, do not commit binaries)
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
